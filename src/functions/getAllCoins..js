@@ -7,7 +7,7 @@ const fectching =
     .then((res)=> {
      return res.data ;
    })
-    .catch((err) =>{console.log(err)})
+    .catch((err) =>{return err})
 
     return fectching ;
 }

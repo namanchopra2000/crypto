@@ -67,31 +67,31 @@ td{
 
 @media (max-width : 1050px){
     .lower-detail-list{
-        margin-top:1.4rem;
-        font-size: 0.8rem;
+        margin-top:1.4rem !important;
+        font-size: 0.8rem !important;
     }
     .price-list{
-        margin-top:2.2rem;
-        font-size: 1rem;
+        margin-top:2.2rem !important;
+        font-size: 1rem !important; 
     }
     .chip-up , .chip-down {
     font-size: 1.4rem !important;
     }
     .chip-green{
-        min-width:65px;
+        min-width:65px !important;
     }
     .chip-red{
-        min-width:65px;
+        min-width:65px !important;
     }
   tr{
-    width: 100vw;
-    margin:1rem;
+    width: 100vw !important;
+    margin:1rem !important;
   }
   .destop-view{
-    display: block;
+    display: block !important;
 }
 .mobile-view{
-    display: none;
+    display: none !important;
 }
 
 }
@@ -101,7 +101,7 @@ td{
     display: none !important;
 }
 tr{
-    width: 100vw;
+    width: 100vw !important;
     margin:0rem !important;
   }
   .destop-view{
@@ -115,55 +115,55 @@ tr{
 
     
     .total-volume{
-        display: none;
+        display: none !important;
     }
     .price-list{
-        margin-top:1.8rem;
-        font-size: 0.6rem;
+        margin-top:1.8rem !important;
+        font-size: 0.6rem !important;
     }
 
     .chip-green-list{
-        min-width:12px;
-        max-height: 10px;
-        font-size: 8px;
-        padding: 0.5rem 2rem 0.5rem 1rem;
-        text-align: center;
+        min-width:12px !important;
+        max-height: 10px !important;
+        font-size: 8px !important;
+        padding: 0.5rem 2rem 0.5rem 1rem !important;
+        text-align: center !important;
     }
     .chip-red-list{
-        min-width:12px;
-        max-height: 10px;
-        font-size: 8px;
-        padding: 0.5rem 2rem 0.5rem 1rem;
-        text-align: center;
+        min-width:12px !important;
+        max-height: 10px !important;
+        font-size: 8px !important;
+        padding: 0.5rem 2rem 0.5rem 1rem !important;
+        text-align: center !important;
     }
     .coin-img-list{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.5rem !important;
+        height: 1.5rem !important;
     }
     .coin-info-div-list{
-    margin:0rem ;
+    margin:0rem !important;
 
     }
     .coin-symbol-list{
-    font-size:0.3rem;
+    font-size:0.3rem !important;
     }
     .coin-name-list{
-        font-size:0.5rem;
+        font-size:0.5rem !important;
     }
 
     .coin-symbol-name-list{
-        min-width: 3rem ;
+        min-width: 3rem !important;
     }
     .symbol-price-list{
-        max-width: 2rem;
+        max-width: 2rem !important;
     }
     .destop-view{
         display: none !important;
     }
     .mobile-view{
         display: block;
-        margin-top:1.5rem;
-        font-size: 0.4rem;
-        text-align: center;
+        margin-top:1.5rem !important;
+        font-size: 0.4rem !important;
+        text-align: center !important;
     }
 }

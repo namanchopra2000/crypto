@@ -1,10 +1,12 @@
-import Button from '../common/Button'
+
 import React from 'react'
 import "./style.css"
 import { motion} from "framer-motion" 
 import iphoneBack from "../.././assests/gradient.png" ; //phone image
 import iphone from "../.././assests/iphone.png";  // gradient image
 import { Link } from 'react-router-dom';
+import ShareButton from '../../pages/Dashboard/ShareButton';
+import Button from '../common/Button';
 
 function MainComponent() {
   return (
@@ -36,8 +38,10 @@ function MainComponent() {
             animate={{opacity:1 , x:0 } }
             transition={{duration: 1 }} 
             className='landing-page-buttons'>
-                <Link to="/dashboard"> <Button text="Dashboard" onClick={()=> console.log("hey")}/> </Link>
-                <Button outlined={true} text="Share"/>
+                <Link to="/dashboard">
+                   <Button text="Dashboard"/> 
+                   </Link>
+                <ShareButton title={"hey"} url={"google.com"} />
             </motion.div>
 
         </div>

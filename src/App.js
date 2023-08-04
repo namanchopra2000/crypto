@@ -8,13 +8,18 @@ import Dashboard from './pages/Dashboard';
 import { Route  } from "react-router-dom";
 import Watchlist from './pages/Watchlist';
 import Coin from  './pages/coin'
+import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  const[darkMode , setDarkMode] = useState(false);
   return (
     <div className="App">
-      <Header />
+      <Header setDarkMode={setDarkMode} darkMode={darkMode}/>
+      <ToastContainer />
       <Routes>
-                <Route path="/" Component={MainComponent} ></Route>
+                <Route index path="/crypto-naman-dash" Component={MainComponent} ></Route>
                 <Route path="/dashboard" Component={Dashboard}></Route>
                 <Route path="/coin/:id" Component={Coin}></Route>
                 <Route path="/watchlist" Component={Watchlist}></Route>

@@ -1,7 +1,10 @@
 /* normal button  */
 .btn {
     background-color: var(--blue);
-    color: var(--white);
+    color: #fff;
+    border-color: var(--blue);
+    border-bottom: var(--blue);
+    border-right: var(--blue);
     padding: 0.7rem 2rem;
     border-radius: 3rem;
     cursor: pointer;
@@ -30,6 +33,7 @@
 /* outlined hover */
 .outlined:hover{
     background-color: var(--blue);
+    color: #fff;
     box-shadow: 5px 5px 10px rgba(58 , 128 ,233, 0.5);
     transition: all 0.3s;
 }
